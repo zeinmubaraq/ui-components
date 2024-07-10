@@ -14,7 +14,7 @@ export default function LoginForm1() {
         sizes="100vw"
         style={{ objectFit: 'cover' }}
       />
-      <div className="relative bg-white px-10 py-20 sm:absolute sm:inset-y-0 sm:right-0 sm:w-1/3">
+      <div className="absolute inset-y-0 w-full bg-white px-10 py-20 sm:right-0 sm:w-1/3">
         <div className="flex flex-col justify-center">
           <TailwindLogo />
           <h2 className="mt-7 text-center text-2xl font-bold tracking-tight text-gray-900">
@@ -23,6 +23,7 @@ export default function LoginForm1() {
         </div>
         <div className="mt-10">
           <form className="space-y-6">
+            <input type="text" className="" />
             <TextInput placeholder="Username" />
             <TextInput placeholder="Password" />
             <button className="w-full rounded-md bg-indigo-600 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500">
